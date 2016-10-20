@@ -1,0 +1,58 @@
+/*-------------------------------------------------------------.
+|                        General Styles                        |
+`------------------------------------------------------------*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font: 400 16px/22px 'Quattrocento', Helvetica, serif;
+}
+
+/*-------------------------------------------------------------.
+|                            Pages                             |
+`------------------------------------------------------------*/
+
+.v-center {
+	font-size: 0;
+}
+.v-center-wrap:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+.v-center-box {
+	font-size: 1rem;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*-------------------------------------------------------------.
+|                             Home                             |
+`------------------------------------------------------------*/
+
+.home-banner {
+	height: 100%;
+	background: #f857a6;
+	background: -webkit-linear-gradient(to left, rgba(248, 87, 166, .1) , rgba(255, 88, 88, .1));
+	background:         linear-gradient(to left, rgba(248, 87, 166, .1) , rgba(255, 88, 88, .1));
+        
+}
+.home-banner h1 {
+	font-size: 5em;
+	position: relative;
+	left: -1.5em;
+	color: white;
+}
+.first-letter {
+	font-size: 7em;
+	vertical-align: middle;
+}
+.other-letters {
+	font-weight: 700;
+	position: relative;
+	left: -.7em;
+}
