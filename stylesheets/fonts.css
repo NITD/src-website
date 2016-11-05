@@ -11,3 +11,10 @@
 	font-style: normal;
 	src: url('../assets/fonts/Quattrocento/Quattrocento-Bold.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-style: normal;
+	src: url('../assets/fonts/montserrat/Montserrat-Light.otf') format('opentype');
+}
