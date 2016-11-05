@@ -210,5 +210,6 @@ p {
 	background-image: linear-gradient(to bottom right, rgba(255, 161, 127, .9) , rgba(0, 34, 62, .9));
 }
 .others {
-	background-image: linear-gradient(to bottom right, rgba(54, 0, 51, .9) , rgba(11, 135, 147, .9));
+	background-image: linear-gradient(to bottom right, rgba(54, 0, 51, .9) , rgba(11, 135, 147, .9)),
+					  url('../assets/images/events/others-min.jpg');
 }
