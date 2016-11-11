@@ -103,15 +103,18 @@ p {
 
 .col {
 	float: left;
-	height: 20rem;
 	width: 100%;
 }
 @media all and (min-width: 400px) {
 	.col-1-4 {
 		width: 50%;
+		height: 20rem;
 	}
 }
 @media all and (min-width: 800px) {
+	.col {
+		height: 20rem;
+	}
 	.col-1-4 {
 		width: 25%;
 	}
@@ -177,39 +180,75 @@ p {
 .bg {
 	background-size: cover;
 	background-position: center center;
+	cursor: pointer;
 }
 .tree-plantation {
 	background-image: linear-gradient(to bottom right, rgba(92, 37, 141, .9) , rgba(67, 137, 162, .9)),
+					  url('../assets/images/events/tree-plantation-min.jpg');
+}
+.tree-plantation:hover {
+	background-image: linear-gradient(to bottom right, rgba(126, 52, 200, 0.9) , rgba(95, 204, 247, 0.9)),
 					  url('../assets/images/events/tree-plantation-min.jpg');
 }
 .greening-blue {
 	background-image: linear-gradient(to bottom right, rgba(22, 34, 42, .9) , rgba(58, 96, 115, .9)),
 					  url('../assets/images/events/greening-the-blue-min.jpg');
 }
+.greening-blue:hover {
+	background-image: linear-gradient(to bottom right, rgba(60, 92, 116, 0.9) , rgba(88, 147, 178, 0.9)),
+					  url('../assets/images/events/greening-the-blue-min.jpg');
+}
 .blood-donation {
 	background-image: linear-gradient(to bottom right, rgba(142, 14, 0, .9) , rgba(31, 28, 24, .9)),
+					  url('../assets/images/events/blood-donation-min.jpg');
+}
+.blood-donation:hover {
+	background-image: linear-gradient(to bottom right, rgba(190, 20, 1, 0.9) , rgba(82, 74, 64, 0.9)),
 					  url('../assets/images/events/blood-donation-min.jpg');
 }
 .book-donation {
 	background-image: linear-gradient(to bottom right, rgba(44, 62, 80, .9) , rgba(52, 152, 219, .9)),
 					  url('../assets/images/events/book-donation-min.jpg');
 }
+.book-donation:hover {
+	background-image: linear-gradient(to bottom right, rgba(86, 123, 160, 0.9) , rgba(57, 174, 255, 0.9)),
+					  url('../assets/images/events/book-donation-min.jpg');
+}
 .swachh-bharat {
 	background-image: linear-gradient(to bottom right, rgba(186, 139, 2, .9) , rgba(24, 24, 24, .9)),
+					  url('../assets/images/events/swachh-bharat-min.jpg');
+}
+.swachh-bharat:hover {
+	background-image: linear-gradient(to bottom right, rgba(227, 171, 4, 0.9) , rgba(93, 93, 93, 0.9)),
 					  url('../assets/images/events/swachh-bharat-min.jpg');
 }
 .rural-teaching {
 	background-image: linear-gradient(to bottom right, rgba(82, 82, 82, .9) , rgba(61, 114, 180, .9)),
 					  url('../assets/images/events/rural-teaching-min.jpg');
 }
+.rural-teaching:hover {
+	background-image: linear-gradient(to bottom right, rgba(151, 151, 151, 0.9) , rgba(77, 148, 238, 0.9)),
+					  url('../assets/images/events/rural-teaching-min.jpg');
+}
 .unnat-bharat {
 	background-image: linear-gradient(to bottom right, rgba(0, 191, 143, .9) , rgba(0, 21, 16, .9)),
+					  url('../assets/images/events/unnat-bharat-min.jpg');
+}
+.unnat-bharat:hover {
+	background-image: linear-gradient(to bottom right, rgba(0, 234, 176, 0.9) , rgba(0, 102, 78, 0.9)),
 					  url('../assets/images/events/unnat-bharat-min.jpg');
 }
 .rashtriya-avishkar {
 	background-image: linear-gradient(to bottom right, rgba(255, 161, 127, .9) , rgba(0, 34, 62, .9));
 }
+.rashtriya-avishkar:hover {
+	background-image: linear-gradient(to bottom right, rgba(255, 161, 127, .9) , rgba(0, 87, 159, 0.9));
+}
 .others {
 	background-image: linear-gradient(to bottom right, rgba(54, 0, 51, .9) , rgba(11, 135, 147, .9)),
+					  url('../assets/images/events/others-min.jpg');
+}
+.others:hover {
+	background-image: linear-gradient(to bottom right, rgba(111, 0, 107, 0.9) , rgba(15, 191, 209, 0.9)),
 					  url('../assets/images/events/others-min.jpg');
 }
