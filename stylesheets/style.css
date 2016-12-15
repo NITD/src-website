@@ -47,6 +47,16 @@ p {
 }
 
 /*-------------------------------------------------------------.
+|                            Images                            |
+`------------------------------------------------------------*/
+
+.img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*-------------------------------------------------------------.
 |                           Clearfix                           |
 `------------------------------------------------------------*/
 
@@ -85,6 +95,17 @@ p {
 }
 
 /*-------------------------------------------------------------.
+|                           Spacing                            |
+`------------------------------------------------------------*/
+
+.space-bottom {
+	margin-bottom: 5rem;
+}
+.space-top {
+	margin-top: 2rem;
+}
+
+/*-------------------------------------------------------------.
 |                            Pages                             |
 `------------------------------------------------------------*/
 
@@ -95,6 +116,10 @@ p {
 
 .row {
 	padding: 5rem;
+}
+
+.banner {
+	padding: 10rem 3rem;
 }
 
 .cell {
@@ -108,11 +133,16 @@ p {
 @media all and (min-width: 400px) {
 	.col-1-4 {
 		width: 50%;
+	}
+	.col-1-4.col-height {
 		height: 20rem;
+	}
+	.col-3-4 {
+		width: 75%;
 	}
 }
 @media all and (min-width: 800px) {
-	.col {
+	.col-height {
 		height: 20rem;
 	}
 	.col-1-4 {
@@ -120,9 +150,6 @@ p {
 	}
 	.col-2-4 {
 		width: 50%;
-	}
-	.col-3-4 {
-		width: 75%;
 	}
 }
 
@@ -251,4 +278,14 @@ p {
 .others:hover {
 	background-image: linear-gradient(to bottom right, rgba(111, 0, 107, 0.9) , rgba(15, 191, 209, 0.9)),
 					  url('../assets/images/events/others-min.jpg');
+}
+
+/*-------------------------------------------------------------.
+|                     Blood Donation Page                      |
+`------------------------------------------------------------*/
+
+.blood-donation-page {
+	background-color: #222;
+	background-size: cover;
+	background-attachment: fixed;
 }
