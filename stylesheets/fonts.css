@@ -5,12 +5,12 @@
 	src: url('../assets/fonts/Quattrocento/Quattrocento-Regular.ttf') format('truetype');
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'Quattrocento';
 	font-weight: 700;
 	font-style: normal;
 	src: url('../assets/fonts/Quattrocento/Quattrocento-Bold.ttf') format('truetype');
-}
+}*/
 
 @font-face {
 	font-family: 'Montserrat';
